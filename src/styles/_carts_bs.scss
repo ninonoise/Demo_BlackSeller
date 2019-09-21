@@ -1,0 +1,65 @@
+.links_secciones{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.main_dragonball{
+    width: 30vw;
+    font-family: 'Teko', sans-serif;
+    font-size: 36px;
+    padding: 50px 30px;
+    color: white;
+    border-radius: 0px 12px 0px 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 8px;
+    text-align: center;
+    background-image: url(../img/main_dragonball.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 1px #812118;
+}
+.main_dragonball:hover{
+    border: solid 1px white;
+}
+.main_superheroes{
+    width: 30vw;
+    font-family: 'Teko', sans-serif;
+    font-size: 36px;
+    padding: 50px 30px;
+    color: white;
+    border-radius: 0px 12px 0px 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 8px;
+    text-align: center;
+    background-image: url(../img/main_superheroes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 1px #812118;
+}
+.main_superheroes:hover{
+    border: solid 1px white;
+}
+.main_saintseiya{
+    width: 30vw;
+    font-family: 'Teko', sans-serif;
+    font-size: 36px;
+    padding: 50px 30px;
+    color: white;
+    border-radius: 0px 12px 0px 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 8px;
+    text-align: center;
+    background-image: url(../img/main_saintseiya.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 1px #812118;
+}
+.main_saintseiya:hover{
+    border: solid 1px white;
+}

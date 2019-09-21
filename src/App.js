@@ -18,6 +18,7 @@ function App() {
   return (
     <div className="App">
 
+      <Header_bs/>
       <Switch>
         <Route path="/" exact component={Home}/>
         <Route path="/cart" exact component={Cart}/>
@@ -26,7 +27,7 @@ function App() {
       </Switch>
 
 
-      <Header_bs/>
+      
       <Slider_bs />
       <Carts_bs />
       <Footer_bs />

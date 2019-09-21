@@ -1,4 +1,7 @@
 import React from 'react';
+import slide01 from '../../../img/slider/slide_01.jpg'
+import slide02 from '../../../img/slider/slide_02.jpg'
+import slide03 from '../../../img/slider/slide_03.jpg'
 
 const Slider_bs = () => {
     return (
@@ -10,21 +13,21 @@ const Slider_bs = () => {
             </ol>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img className="d-block img-fluid" src="/assets/img/slider/slide_01.jpg" alt="First Slide" />
+                    <img className="d-block img-fluid" src={slide01} alt="First Slide" />
                     <div className="carousel-caption d-none d-md-block">
                         <h3 className="header_font_slider">PREVENTAS</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className="d-block img-fluid" src="/assets/img/slider/slide_02.jpg" alt="Second Slide" />
+                    <img className="d-block img-fluid" src={slide02} alt="Second Slide" />
                     <div className="carousel-caption d-none d-md-block">
                         <h3 className="header_font_slider">PREVENTAS</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className="d-block img-fluid" src="/assets/img/slider/slide_03.jpg" alt="Third Slide" />
+                    <img className="d-block img-fluid" src={slide03} alt="Third Slide" />
                     <div className="carousel-caption d-none d-md-block">
                         <h3 className="header_font_slider">PREVENTAS</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, illo?</p>

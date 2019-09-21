@@ -1,38 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer_bs = () => {
     return (
-        <footer className="p-3">
+        <footer>
             <ul>
                 <li>
-                    <button href="#">
+                    <Link href="#">
                         <h3>EN STOCK</h3>
-                    </button>
-                </li>
-                <li>
-                    <button href="#">
-                        <h3>PREVENTAS</h3>
-                    </button>
-                </li>
-                <li>
-                    <button href="#">
-                        <h3>MASCARA DE LATEX</h3>
-                    </button>
-                </li>
-                <li>
-                    <button href="#">
-                        <h3>PREGUNTAS FRECUENTES</h3>
-                    </button>
-                </li>
-                <li>
-                    <button href="#">
-                        <h3>MI CUENTA</h3>
-                    </button>
-                </li>
-                <li>
-                    <button href="#">
-                    <h3>NOSOTROS</h3>
-                    </button>
+                    </Link>
                 </li>
             </ul>
         </footer>
