@@ -21,7 +21,7 @@ const Header_bs = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto header_font">
               <li className="nav-item dropdown">
-                <Link href="#" className="nav-link dropdown-toggle white_color" data-toggle="dropdown">EN STOCK</Link>
+                <NavLink href="#" className="nav-link dropdown-toggle white_color" data-toggle="dropdown">EN STOCK</NavLink>
                 <div className="dropdown-menu dropdown_custom">
                   <Link href="#" className="dropdown-item">SAINT SEIYA</Link>
                   <Link href="#" className="dropdown-item">DRAGON BALL</Link>
@@ -38,20 +38,20 @@ const Header_bs = () => {
                 <NavLink className="nav-link  white_color" href="#">PREVENTAS</NavLink>
               </li>
               <li className="nav-item dropdown">
-                <Link href="#" className="nav-link dropdown-toggle white_color" data-toggle="dropdown">PLAYERAS</Link>
+                <NavLink href="#" className="nav-link dropdown-toggle white_color" data-toggle="dropdown">PLAYERAS</NavLink>
                 <div className="dropdown-menu dropdown_custom">
                   <Link href="#" className="dropdown-item">HOMBRE</Link>
                   <Link href="#" className="dropdown-item">MUJER</Link>
                 </div>
               </li>
               <li className="nav-item">
-                <Link className="nav-link  white_color" href="#">FAQ</Link>
+                <NavLink className="nav-link  white_color" href="#">FAQ</NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link  white_color" href="#">CONTACTO</Link>
+                <NavLink className="nav-link  white_color" href="#">CONTACTO</NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link  white_color" href="#">MI CUENTA</Link>
+                <NavLink className="nav-link  white_color" href="#">MI CUENTA</NavLink>
               </li>
             </ul>
           </div>
