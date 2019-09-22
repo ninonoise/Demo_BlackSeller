@@ -2,26 +2,10 @@ footer{
     background-color: #cc2030;
     color: white;
     border-bottom: solid 20px #812118;
+    padding: 8px;
+    display: flex;
+    justify-content: flex-end;
 }
-footer ul{
-    list-style-type: none;
-    text-decoration: none;
-    display: inline-block;
-}
-footer ul li{
-    display: inline-block;
-    margin: 0px 10px 0px 10px;
-}
-footer ul a{
-    color: white;
-}
-footer ul a:hover{
-    text-decoration: none;
-    color: white;
-    text-shadow: 2px 2px 8px #000000;
-}
-footer h3{
-    font-family: 'Teko', sans-serif;
-    font-size: 24px;
-    color: white;
+footer img{
+    width: 35px;
 }

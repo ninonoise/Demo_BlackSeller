@@ -26,14 +26,9 @@ function App() {
         <Route path="/stock/:id" exact component={StockDetail}/>
       </Switch>
 
-
-      
       <Slider_bs />
       <Carts_bs />
       <Footer_bs />
-
-
-
 
     </div>
   );

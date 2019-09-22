@@ -6,8 +6,16 @@ const StockDetail = (props) => {
 
     return(
         <article>
+            <h1>Stock Detail {stockId}</h1>
+            <li key = {stockId}>
+            
+            <p>{props.match.params.title}</p>
+                
+                
+                
+            </li>
             <h1>
-                Stock Detalle {stockId}
+            
             </h1>
         </article>
     )

@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import fb_icon from '../../img/fb.png'
 
 const Footer_bs = () => {
     return (
         <footer>
             <ul>
                 <li>
-                    <Link href="#">
-                        <h3>EN STOCK</h3>
+                    <Link href="http://www.facebook.com/blacksellercoleccionables" target="_blank">
+                        <img src={fb_icon} alt=""></img>
                     </Link>
                 </li>
             </ul>

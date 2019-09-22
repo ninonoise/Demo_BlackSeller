@@ -1,65 +1,46 @@
-.links_secciones{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-}
-.main_dragonball{
-    width: 30vw;
-    font-family: 'Teko', sans-serif;
+.links_secciones article {
+    font-family: "Teko", sans-serif;
     font-size: 36px;
-    padding: 50px 30px;
+    padding: 40px 30px;
     color: white;
     border-radius: 0px 12px 0px 12px;
     cursor: pointer;
     text-transform: uppercase;
-    margin: 8px;
+    margin: 10px;
     text-align: center;
+    background-position: center no-repeat cover;
+    border: solid 1px #812118;
+  }
+  @media screen and (min-width: 720px) {
+    .links_secciones {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 1rem;
+      margin: 0px;
+    }
+  }
+  
+  
+  .main_dragonball {
     background-image: url(../img/main_dragonball.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: solid 1px #812118;
-}
-.main_dragonball:hover{
-    border: solid 1px white;
-}
-.main_superheroes{
-    width: 30vw;
-    font-family: 'Teko', sans-serif;
-    font-size: 36px;
-    padding: 50px 30px;
-    color: white;
-    border-radius: 0px 12px 0px 12px;
-    cursor: pointer;
-    text-transform: uppercase;
-    margin: 8px;
-    text-align: center;
+  }
+  
+  .main_dragonball:hover {
+    border: solid 1px #ff3131;
+  }
+  
+  .main_superheroes {
     background-image: url(../img/main_superheroes.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: solid 1px #812118;
-}
-.main_superheroes:hover{
-    border: solid 1px white;
-}
-.main_saintseiya{
-    width: 30vw;
-    font-family: 'Teko', sans-serif;
-    font-size: 36px;
-    padding: 50px 30px;
-    color: white;
-    border-radius: 0px 12px 0px 12px;
-    cursor: pointer;
-    text-transform: uppercase;
-    margin: 8px;
-    text-align: center;
+  }
+  
+  .main_superheroes:hover {
+    border: solid 1px #ff3131;
+  }
+  
+  .main_saintseiya {
     background-image: url(../img/main_saintseiya.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: solid 1px #812118;
-}
-.main_saintseiya:hover{
-    border: solid 1px white;
-}
+  }
+  
+  .main_saintseiya:hover {
+    border: solid 1px #ff3131;
+  }

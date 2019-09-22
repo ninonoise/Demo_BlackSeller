@@ -5,7 +5,7 @@ import slide03 from '../../../img/slider/slide_03.jpg'
 
 const Slider_bs = () => {
     return (
-        <div id="slider4" className="carousel slide mb-5" data-ride="carousel">
+        <div id="slider4" className="carousel slide mb-3" data-ride="carousel">
             <ol className="carousel-indicators">
                 <li className="active" data-target="#slider4" data-slide-to="0"></li>
                 <li data-target="#slider4" data-slide-to="1"></li>
@@ -35,7 +35,6 @@ const Slider_bs = () => {
                 </div>
             </div>
         </div>
-
     )
 }
 
