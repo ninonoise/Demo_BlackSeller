@@ -1,24 +1,36 @@
 
 .StockList{
     width: 80%;
-    margin: 10px;
     display: flex;
     flex-wrap: wrap;
-    
+    margin: 10px;
+    border: solid 5px #181818;
 }
-.StockList img{
-    background-color:black;
+.StockList_Product{
+    border: solid 5px #181818;
+}
+.StockList_Product img{
+    background-color: silver;
     width: 250px;
     height: 250px;
     object-fit: cover;
 }
-.StockList h5{
+.StockList_Product h5{
+    background-color: #cc2030;
+    color: white;
     padding: 5px;
     margin: 0px;
-    background-color:orange;
+    text-align: center;
 }
-.StockList h4{
-    margin: 0px;
-    background-color:violet;
+.StockList_Product h4{
+    background-color: black;
+    color: white;
     padding: 5px;
+    margin: 0px;
+    text-align: center;
+}
+.Container_General{
+    display: flex;
+    flex-flow: row;
+    grid-gap: 1rem;
 }

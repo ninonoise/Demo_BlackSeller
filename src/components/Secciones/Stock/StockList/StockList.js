@@ -6,7 +6,7 @@ const fakeStock = [
         id: 0,
         title: "ANDROIDE 21 SH FIGUARTS",
         product_image: "../../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -14,7 +14,7 @@ const fakeStock = [
         id: 1,
         title: "GOKU SSGSS SH FIGUARTS",
         product_image: "./androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -22,16 +22,16 @@ const fakeStock = [
         id: 2,
         title: "SIEGFRIED ALPHA DOUBE MYTH CLOTH EX",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
-        
+
     },
     {
         id: 3,
         title: "OHHHHH",
         product_image: "../../../../../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -39,7 +39,7 @@ const fakeStock = [
         id: 4,
         title: "COSASSSSS",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -47,7 +47,7 @@ const fakeStock = [
         id: 5,
         title: "COSASSSSS",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -55,7 +55,7 @@ const fakeStock = [
         id: 6,
         title: "COSASSSSS",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -63,7 +63,7 @@ const fakeStock = [
         id: 7,
         title: "COSASSSSS",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -71,7 +71,7 @@ const fakeStock = [
         id: 8,
         title: "COSASSSSS",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -79,7 +79,7 @@ const fakeStock = [
         id: 9,
         title: "COSASSSSS",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -87,7 +87,7 @@ const fakeStock = [
         id: 10,
         title: "COSASSSSS",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -95,7 +95,7 @@ const fakeStock = [
         id: 11,
         title: "COSASSSSS",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -103,7 +103,7 @@ const fakeStock = [
         id: 12,
         title: "COSASSSSS",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -111,7 +111,7 @@ const fakeStock = [
         id: 13,
         title: "COSASSSSS",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -119,7 +119,7 @@ const fakeStock = [
         id: 14,
         title: "COSASSSSS",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -127,7 +127,7 @@ const fakeStock = [
         id: 15,
         title: "COSASSSSS",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -135,7 +135,7 @@ const fakeStock = [
         id: 16,
         title: "COSASSSSS",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -143,7 +143,7 @@ const fakeStock = [
         id: 17,
         title: "COSASSSSS",
         product_image: "../../../img/products/androide21.jpg",
-        product_description:"Esta monilla está bien chida, comprala ya!!",
+        product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
@@ -151,7 +151,7 @@ const fakeStock = [
 
 const StockList = () => {
 
-    const renderStock = fakeStock.map( eachStock => (
+    const renderStock = fakeStock.map(eachStock => (
         <StockPreview
             id={eachStock.id}
             title={eachStock.title}
@@ -161,13 +161,27 @@ const StockList = () => {
             specs={eachStock.specs}
             key={eachStock.id}
         />
-    ) )
+    ))
 
     return (
-        <div className = "StockList">
-            
-               {renderStock}
-            
+        <div className="Container_General">
+            <div className="StockList">
+                <div className="StockList_Product">
+                    {renderStock}
+                </div>
+            </div>
+            <div>
+                <ul className="SideMenu">
+                    <li>Saint Seiya</li>
+                    <li>Dragon Ball</li>
+                    <li>Storm Collectibles</li>
+                    <li>Videojuegos</li>
+                    <li>Figuras Fijas</li>
+                    <li>Sh Figuarts</li>
+                    <li>Robots</li>
+                    <li>Figma/Nendoroid</li>
+                </ul>
+            </div>
         </div>
     )
 }

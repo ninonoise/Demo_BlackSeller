@@ -1,0 +1,27 @@
+$red_blackseller:#cc2030;
+$body-gray:#252525;
+$font-headers: 'Teko', sans-serif;
+$font-global: 'Roboto', sans-serif;
+
+.SideMenu {
+    color: white;
+    list-style: none;
+}
+
+.SideMenu li{
+    width: 200px;
+    font-family: $font-headers;
+    font-size: 18px;
+    background-color: #181818;
+    padding: 5px 5px 5px 8px;
+    color: white;
+    border-radius: 0px 8px 0px 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 8px;
+    text-align: left;
+}
+
+.SideMenu li:hover{
+    background-color: $red_blackseller;
+}
