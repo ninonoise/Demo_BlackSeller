@@ -1,3 +1,8 @@
+$red_blackseller:#cc2030;
+$body-gray:#252525;
+$font-headers: 'Teko', sans-serif;
+$font-global: 'Roboto', sans-serif;
+
 nav{
     background-color: black;
     color: white;
@@ -11,9 +16,30 @@ a{
     font-size: 24px;
 }
 a:hover{
-    color: red;
+    color: $red_blackseller;
 } 
 
 .white_color{
     color: white!important;
+}
+.white_color:hover{
+    color:$red_blackseller!important;
+}
+nav li img{
+    height: 18px;
+}
+Link:hover{
+    color: $red_blackseller;
+}
+.dropdown_custom{
+    background-color: #252525;
+    color: white;
+    border: solid 1px #5d5d5d;
+}
+.dropdown_custom a{
+    color: white;
+    font-size: 19px;
+}
+.dropdown_custom a:hover{
+    background-color: $red_blackseller;
 }
