@@ -1,8 +1,19 @@
+$red_blackseller:#cc2030;
+$body-gray:#252525;
+$font-headers: 'Teko', sans-serif;
+$font-global: 'Roboto', sans-serif;
+
 .Detail_Section{
     background-color: #181818;
     color: White;
     margin: 10px;
     padding: 10px;
     width: 100%;
+    font-size: 14px;
+}
+.Detail_Section a{
+    font-family: $font-global;
+    color: $red_blackseller;
+    font-size: 14px;
 
 }

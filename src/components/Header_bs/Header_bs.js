@@ -8,7 +8,7 @@ const Header_bs = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-light nav_black sticky-top">
       <div className="container">
-        <Link href="#">
+        <Link to="/">
           <img src={logo} alt=""></img>
         </Link>
         <Link className="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
@@ -21,39 +21,39 @@ const Header_bs = () => {
             <li className="nav-item dropdown">
               <NavLink href="#" className="nav-link dropdown-toggle white_color" data-toggle="dropdown">EN STOCK</NavLink>
               <div className="dropdown-menu dropdown_custom">
-                <Link href="#" className="dropdown-item">SAINT SEIYA</Link>
-                <Link href="#" className="dropdown-item">DRAGON BALL</Link>
-                <Link href="#" className="dropdown-item">SH FIGUARTS</Link>
-                <Link href="#" className="dropdown-item">STORM COLLECTIBLES</Link>
-                <Link href="#" className="dropdown-item">FIGMA / NENDOROID</Link>
-                <Link href="#" className="dropdown-item">MARVEL / DC / STAR WARS</Link>
-                <Link href="#" className="dropdown-item">PERSONAJES DE VIDEOJUEGOS</Link>
-                <Link href="#" className="dropdown-item">ROBOTS / MECHAS</Link>
-                <Link href="#" className="dropdown-item">FIGURAS ESTATICAS</Link>
+                <Link to="/stock" className="dropdown-item">SH FIGUARTS</Link>
+                <Link to="/stock" className="dropdown-item">DRAGON BALL</Link>
+                <Link to="/stock" className="dropdown-item">SAINT SEIYA</Link>
+                <Link to="/stock" className="dropdown-item">STORM COLLECTIBLES</Link>
+                <Link to="/stock" className="dropdown-item">FIGMA / NENDOROID</Link>
+                <Link to="/stock" className="dropdown-item">MARVEL / DC / STAR WARS</Link>
+                <Link to="/stock" className="dropdown-item">PERSONAJES DE VIDEOJUEGOS</Link>
+                <Link to="/stock" className="dropdown-item">ROBOTS / MECHAS</Link>
+                <Link to="/stock" className="dropdown-item">FIGURAS ESTATICAS</Link>
               </div>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link  white_color" href="#">PREVENTAS</NavLink>
+              <NavLink className="nav-link  white_color" to="/stock">PREVENTAS</NavLink>
             </li>
             <li className="nav-item dropdown">
               <NavLink href="#" className="nav-link dropdown-toggle white_color" data-toggle="dropdown">PLAYERAS</NavLink>
               <div className="dropdown-menu dropdown_custom">
-                <Link href="#" className="dropdown-item">HOMBRE</Link>
-                <Link href="#" className="dropdown-item">MUJER</Link>
+                <Link to="/stock" className="dropdown-item">HOMBRE</Link>
+                <Link to="/stock" className="dropdown-item">MUJER</Link>
               </div>
 
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link  white_color" href="#">FAQ</NavLink>
+              <NavLink className="nav-link  white_color" to="/Questions">FAQ</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link  white_color" href="#">CONTACTO</NavLink>
+              <NavLink className="nav-link  white_color" to="/Contact">CONTACTO</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link  white_color" href="#">MI CUENTA</NavLink>
+              <NavLink className="nav-link  white_color" to="/Account">MI CUENTA</NavLink>
             </li>
             <li className="nav-item white_color">
-              <Link className="nav-link" href="#">
+              <Link className="nav-link" to="/Cart">
                 <img src={cartIcon} alt=""></img>
               </Link>
             </li>

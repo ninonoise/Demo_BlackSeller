@@ -1,0 +1,51 @@
+$red_blackseller:#cc2030;
+$body-gray:#252525;
+$font-headers: 'Teko', sans-serif;
+$font-global: 'Roboto', sans-serif;
+
+input[type="text"]{
+    background-color: #252525;
+    color: gray;
+    height: 40px;
+    border-radius: 4px;
+    border: solid 1px #494949;
+    padding: 4px 10px;
+    width: 250px;
+    margin-top: 8px;
+}
+input[type="password"]{
+    background-color: #252525;
+    color: gray;
+    height: 40px;
+    border-radius: 4px;
+    border: solid 1px #494949;
+    padding: 4px 10px;
+    width: 250px;
+    margin-top: 8px;
+}
+textarea{
+    background-color: #252525;
+    color: gray;
+    height: 100px;
+    border-radius: 4px;
+    border: solid 1px #494949;
+    padding: 4px 10px;
+    width: 250px;
+    margin-top: 8px;
+}
+button{
+    font-family: $font-headers;
+    background-color: $red_blackseller;
+    padding: 4px 12px;
+    color: white;
+    border-radius: 4px;
+    border: solid 1px #770303;
+    cursor: pointer;
+    margin-top:50px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+button:hover{
+    background-color:#770303;
+    border: solid 1px #770303;
+}
