@@ -1,12 +1,19 @@
 import React from 'react';
 import StockPreview from '../StockPreview/StockPreview';
-
+import androide21 from '../../../../img/products/androide21.jpg';
+import eva from '../../../../img/products/eva.jpg';
+import blackwidow from '../../../../img/products/blackwidow.jpg';
+import garuda from '../../../../img/products/garuda.jpg';
+import ironman from '../../../../img/products/ironman.jpg';
+import leo from '../../../../img/products/leo.jpg';
+import python from '../../../../img/products/python.jpg';
+import goku from '../../../../img/products/goku.jpg';
 
 const fakeStock = [
     {
         id: 0,
         title: "ANDROIDE 21 SH FIGUARTS",
-        product_image: "../../../../img/products/androide21.jpg",
+        product_image: androide21,
         product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
@@ -14,15 +21,15 @@ const fakeStock = [
     {
         id: 1,
         title: "GOKU SSGSS SH FIGUARTS",
-        product_image: "./androide21.jpg",
+        product_image: goku,
         product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
     {
         id: 2,
-        title: "SIEGFRIED ALPHA DOUBE MYTH CLOTH EX",
-        product_image: "../../../img/products/androide21.jpg",
+        title: "BLACK WIDOW SH FIGUARTS",
+        product_image: blackwidow,
         product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
@@ -30,124 +37,44 @@ const fakeStock = [
     },
     {
         id: 3,
-        title: "OHHHHH",
-        product_image: "../../../../../../../img/products/androide21.jpg",
+        title: "EVA-01 METAL BUILD",
+        product_image: eva,
         product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
     {
         id: 4,
-        title: "COSASSSSS",
-        product_image: "../../../img/products/androide21.jpg",
+        title: "AIAKOS GARUDA",
+        product_image: garuda,
         product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
     {
         id: 5,
-        title: "COSASSSSS",
-        product_image: "../../../img/products/androide21.jpg",
+        title: "IRON MAN MARK 50",
+        product_image: ironman,
         product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
     {
         id: 6,
-        title: "COSASSSSS",
-        product_image: "../../../img/products/androide21.jpg",
+        title: "AIORA LEO MYTH EX",
+        product_image: leo,
         product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
     },
     {
         id: 7,
-        title: "COSASSSSS",
-        product_image: "../../../img/products/androide21.jpg",
+        title: "IRON MAN MARK 20",
+        product_image: python,
         product_description: "Esta monilla está bien chida, comprala ya!!",
         price: "$1,250",
         specs: "PVC"
-    },
-    {
-        id: 8,
-        title: "COSASSSSS",
-        product_image: "../../../img/products/androide21.jpg",
-        product_description: "Esta monilla está bien chida, comprala ya!!",
-        price: "$1,250",
-        specs: "PVC"
-    },
-    {
-        id: 9,
-        title: "COSASSSSS",
-        product_image: "../../../img/products/androide21.jpg",
-        product_description: "Esta monilla está bien chida, comprala ya!!",
-        price: "$1,250",
-        specs: "PVC"
-    },
-    {
-        id: 10,
-        title: "COSASSSSS",
-        product_image: "../../../img/products/androide21.jpg",
-        product_description: "Esta monilla está bien chida, comprala ya!!",
-        price: "$1,250",
-        specs: "PVC"
-    },
-    {
-        id: 11,
-        title: "COSASSSSS",
-        product_image: "../../../img/products/androide21.jpg",
-        product_description: "Esta monilla está bien chida, comprala ya!!",
-        price: "$1,250",
-        specs: "PVC"
-    },
-    {
-        id: 12,
-        title: "COSASSSSS",
-        product_image: "../../../img/products/androide21.jpg",
-        product_description: "Esta monilla está bien chida, comprala ya!!",
-        price: "$1,250",
-        specs: "PVC"
-    },
-    {
-        id: 13,
-        title: "COSASSSSS",
-        product_image: "../../../img/products/androide21.jpg",
-        product_description: "Esta monilla está bien chida, comprala ya!!",
-        price: "$1,250",
-        specs: "PVC"
-    },
-    {
-        id: 14,
-        title: "COSASSSSS",
-        product_image: "../../../img/products/androide21.jpg",
-        product_description: "Esta monilla está bien chida, comprala ya!!",
-        price: "$1,250",
-        specs: "PVC"
-    },
-    {
-        id: 15,
-        title: "COSASSSSS",
-        product_image: "../../../img/products/androide21.jpg",
-        product_description: "Esta monilla está bien chida, comprala ya!!",
-        price: "$1,250",
-        specs: "PVC"
-    },
-    {
-        id: 16,
-        title: "COSASSSSS",
-        product_image: "../../../img/products/androide21.jpg",
-        product_description: "Esta monilla está bien chida, comprala ya!!",
-        price: "$1,250",
-        specs: "PVC"
-    },
-    {
-        id: 17,
-        title: "COSASSSSS",
-        product_image: "../../../img/products/androide21.jpg",
-        product_description: "Esta monilla está bien chida, comprala ya!!",
-        price: "$1,250",
-        specs: "PVC"
-    },
+    }
 ]
 
 const StockList = () => {
@@ -167,9 +94,9 @@ const StockList = () => {
     return (
         <div className="Container_General">
             <div className="StockList">
-                <div className="StockList_Product">
+                
                     {renderStock}
-                </div>
+                
             </div>
             <div>
                 <ul className="SideMenu">

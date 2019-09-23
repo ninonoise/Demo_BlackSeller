@@ -1,28 +1,24 @@
 
 .StockList{
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
-    border: solid 5px #181818;
 }
-.StockList_Product{
-    border: solid 5px #181818;
-}
-.StockList_Product img{
+.StockList img{
     background-color: silver;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 }
-.StockList_Product h5{
+.StockList h5{
     background-color: #cc2030;
     color: white;
     padding: 5px;
     margin: 0px;
     text-align: center;
 }
-.StockList_Product h4{
+.StockList h4{
     background-color: black;
     color: white;
     padding: 5px;
