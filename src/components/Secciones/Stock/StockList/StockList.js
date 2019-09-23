@@ -1,6 +1,7 @@
 import React from 'react';
 import StockPreview from '../StockPreview/StockPreview';
 
+
 const fakeStock = [
     {
         id: 0,
